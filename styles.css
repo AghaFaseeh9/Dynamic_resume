@@ -7,10 +7,10 @@ body {
   background-color: #f9f9f9;
   box-sizing: border-box;
 }
-h1{
-    text-align: center;
-    font-weight: 600;
-color:#17a2b8;
+h1 {
+  text-align: center;
+  font-weight: 600;
+  color: #17a2b8;
 }
 .container {
   max-width: 800px;
@@ -29,7 +29,7 @@ color:#17a2b8;
 .form-grp textarea {
   width: 100%;
   padding: 10px;
-  margin:auto -10px;
+  margin: auto -10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 1rem;
@@ -39,8 +39,8 @@ color:#17a2b8;
   height: 80px;
 }
 .form-grp {
-    margin-bottom: 15px;
-  }
+  margin-bottom: 15px;
+}
 button {
   padding: 10px 15px;
   border: none;
@@ -62,10 +62,10 @@ button {
   font-size: 1.5rem;
   border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
-  color:#17a2b8;
+  color: #17a2b8;
 }
 .download-btn {
-  background-color:red;
+  background-color: red;
   color: #fff;
   font-weight: 400;
 }
@@ -77,12 +77,15 @@ button {
 .resume-section {
   margin-bottom: 15px;
 }
+#resume-contact{
+text-align: center;
+}
 .resume-section ul {
   list-style-type: none;
   padding: 0;
 }
 .dynamic-entry {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .resume-section li {
   margin: 5px 0;

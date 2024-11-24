@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+color:#17a2b8;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+.form-grp label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-grp input,
+.form-grp textarea {
+  width: 100%;
+  padding: 10px;
+  margin:auto -10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.form-grp textarea {
+  resize: none;
+  height: 80px;
+}
+.form-grp {
+    margin-bottom: 15px;
+  }
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.submit-btn {
+  background-color: #17a2b8;
+  color: #fff;
+}
+.edit-btn {
+  background-color: green;
+  color: #fff;
+}
+.resume-section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  color:#17a2b8;
+}
+.download-btn {
+  background-color:red;
+  color: #fff;
+  font-weight: 400;
+}
+.resume {
+  display: none;
+  padding: 20px;
+  background: #fff;
+}
+.resume-section {
+  margin-bottom: 15px;
+}
+.resume-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.dynamic-entry {
+    margin-bottom: 10px;
+}
+.resume-section li {
+  margin: 5px 0;
+}
+.add-btn {
+  background-color: #17a2b8;
+  color: #fff;
+  margin-top: 5px;
+}
+@media (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+}
